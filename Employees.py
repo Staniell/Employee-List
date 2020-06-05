@@ -57,7 +57,7 @@ class Selection:
         self.interests.place(x=14, y=190)
 
         #Programs
-        self.programs = Label(root, text = 'Program',bg = 'light grey',fg='black')
+        self.programs = Label(root, text = 'Department',bg = 'light grey',fg='black')
         self.programs.config(font=("Georgia",16))
         self.programs.place(x=150, y=190)
 
